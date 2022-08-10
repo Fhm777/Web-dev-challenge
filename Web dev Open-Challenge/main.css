@@ -1,0 +1,95 @@
+:root{
+    --margin: 0px 8% 0px 8%;
+}
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-color: grey;
+}
+
+nav{
+    background-color: magenta;
+    margin: var(--margin);
+    text-align: center;
+    font-size: large;
+}
+
+form{
+    display: inline-block;
+}
+
+input{
+    width: 250px;
+    border: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: medium;
+}
+
+.Submit{
+    background-color: black;
+    color: white;
+    border-style: none;
+    text-align: center;
+    width: 100px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+nav ul li{
+    list-style: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: var(--margin);
+}
+
+.article{
+    background-color: white;
+    padding-left: 4px;
+}
+
+.related{
+    background-color: magenta;
+    margin-left: 1em;
+}
+
+.copyright{
+    background-color: white;
+    margin: var(--margin);
+    margin-top: 1em;
+    padding: 1.5em 0 1.5em 4px;
+    color: var(--text-color);
+}
+
+.header{
+    text-shadow: 3px 3px 10px black;
+    color: white;
+}
